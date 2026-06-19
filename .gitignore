@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# --- Project: Excel <-> XML converter ---
+# Generated converter output written to the working directory when the
+# Fetch / Convert tabs are run with a blank target (matches ../Excel_to_xml).
+*.xlsx
+*.xlsm
+*.xls
+*_xml/
+feed.xlsx
+
+# Editor / OS cruft
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
